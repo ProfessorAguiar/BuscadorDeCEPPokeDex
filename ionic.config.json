@@ -1,0 +1,7 @@
+{
+  "name": "BuscadorDeCEP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,22 @@
+<ion-content class="ion-text-center ion-align-items-center">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Buscador de CEP</ion-card-title>
+      <ion-card-subtitle>SEST SENAT</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-input [(ngModel)]="cep" placeholder="Digite o CEP a ser Buscado"></ion-input>
+      <ion-button expand="block" (click)="toggleShow()">{{ show ? 'Limpar' : 'Buscar' }}</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  @if (show) {
+    <ion-card>
+      <h1>Endereço: {{ endereco.logradouro }}</h1>
+      <h2>Bairro: {{ endereco.bairro }}</h2>
+      <h2>Cidade: {{ endereco.localidade }}</h2>
+      <h2>Estado: {{ endereco.uf }}</h2>
+    </ion-card>
+  }
+</ion-content>

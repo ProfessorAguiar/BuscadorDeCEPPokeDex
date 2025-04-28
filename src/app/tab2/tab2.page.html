@@ -1,0 +1,19 @@
+<ion-content class="ion-text-center ion-align-items-center">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>POKEDEX</ion-card-title>
+      <ion-card-subtitle>BUSQUE SEU POKEMON</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-input [(ngModel)]="POKEMON" placeholder="Digite o nome ou código do Pokemon"></ion-input>
+      <ion-button expand="block" (click)="toggleShow()">{{ show ? 'Limpar' : 'Buscar' }}</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  @if (show) {
+    <ion-card>
+      
+    </ion-card>
+  }
+</ion-content>
