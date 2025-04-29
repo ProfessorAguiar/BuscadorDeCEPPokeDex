@@ -6,14 +6,38 @@
     </ion-card-header>
 
     <ion-card-content>
-      <ion-input [(ngModel)]="POKEMON" placeholder="Digite o nome ou código do Pokemon"></ion-input>
+      <div class="busca">
+        <ion-input [(ngModel)]="POKEMON" placeholder="Digite o nome ou código do Pokemon"></ion-input>
+      </div>
       <ion-button expand="block" (click)="toggleShow()">{{ show ? 'Limpar' : 'Buscar' }}</ion-button>
     </ion-card-content>
   </ion-card>
 
   @if (show) {
-    <ion-card>
-      
-    </ion-card>
+  <ion-card>
+    <h1>{{poke.id}}</h1>
+    <img src={{gifAnimada}} alt="" width="300px">
+    <h1>{{poke.name}}</h1>
+    <p>Tipo: {{poke.types[0].type.name}}</p>
+  </ion-card>
   }
+
+  <!-- 🧩 Lista de 10 Pokémons -->
+<ion-grid>
+  <ion-row>
+    @for (pokemon of pokemons; track pokemon.id) {
+      <ion-col size="6">
+        <ion-card style="height: 170px;">
+          <ion-card-content>
+          <h2>
+            {{pokemon.nome}}
+          </h2>
+            <img [src]="pokemon.imagem" alt="{{ pokemon.name }}" width="150px">
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    }
+  </ion-row>
+</ion-grid>
+
 </ion-content>

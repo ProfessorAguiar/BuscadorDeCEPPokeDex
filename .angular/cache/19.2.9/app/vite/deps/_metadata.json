@@ -1,55 +1,55 @@
 {
-  "hash": "86a69f89",
+  "hash": "d2443fd4",
   "configHash": "89bd384e",
-  "lockfileHash": "5bdc0488",
-  "browserHash": "c5b03047",
+  "lockfileHash": "a4aa63d6",
+  "browserHash": "4f91920f",
   "optimized": {
     "@angular/common/http": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "9ee7af05",
+      "fileHash": "3eacee65",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "f76e4106",
+      "fileHash": "6393300b",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "143acefc",
+      "fileHash": "24b3f554",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "84979656",
+      "fileHash": "dcd7ad76",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "2726798d",
+      "fileHash": "2a19ff3b",
       "needsInterop": false
     },
     "@ionic/angular/standalone": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular-standalone.mjs",
       "file": "@ionic_angular_standalone.js",
-      "fileHash": "f1a1ff7f",
+      "fileHash": "615ee8cf",
       "needsInterop": false
     },
     "ionicons": {
       "src": "../../../../../../node_modules/ionicons/dist/index.js",
       "file": "ionicons.js",
-      "fileHash": "98432c28",
+      "fileHash": "f1e1f56a",
       "needsInterop": false
     },
     "ionicons/icons": {
       "src": "../../../../../../node_modules/ionicons/icons/index.mjs",
       "file": "ionicons_icons.js",
-      "fileHash": "3bc5359e",
+      "fileHash": "dc32becd",
       "needsInterop": false
     }
   },
@@ -129,23 +129,23 @@
     "chunk-CJ5MJUPJ": {
       "file": "chunk-CJ5MJUPJ.js"
     },
-    "chunk-ISGBFTUG": {
-      "file": "chunk-ISGBFTUG.js"
+    "chunk-XSK6FU3V": {
+      "file": "chunk-XSK6FU3V.js"
     },
-    "chunk-QUBBVY6P": {
-      "file": "chunk-QUBBVY6P.js"
+    "chunk-ATKGSLEM": {
+      "file": "chunk-ATKGSLEM.js"
     },
-    "chunk-CUD44ZDP": {
-      "file": "chunk-CUD44ZDP.js"
+    "chunk-BWEIUL3H": {
+      "file": "chunk-BWEIUL3H.js"
     },
-    "chunk-CXNATD3N": {
-      "file": "chunk-CXNATD3N.js"
+    "chunk-YNF6E6JJ": {
+      "file": "chunk-YNF6E6JJ.js"
     },
-    "chunk-WFC43XKM": {
-      "file": "chunk-WFC43XKM.js"
+    "chunk-VKGOKBA2": {
+      "file": "chunk-VKGOKBA2.js"
     },
-    "chunk-5BZKL4JH": {
-      "file": "chunk-5BZKL4JH.js"
+    "chunk-7NGOHB2W": {
+      "file": "chunk-7NGOHB2W.js"
     },
     "chunk-QQQT66VD": {
       "file": "chunk-QQQT66VD.js"
